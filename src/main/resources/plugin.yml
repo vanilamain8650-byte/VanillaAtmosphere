@@ -1,0 +1,13 @@
+name: VanillaAtmosphere
+version: '${project.version}'
+main: ru.atmosphere.Atmosphere
+api-version: '1.21'
+description: Лёгкие атмосферные улучшения для ванильного сервера
+commands:
+  atmosphere:
+    description: Перезагрузка конфига
+    usage: /atmosphere reload
+    permission: atmosphere.admin
+permissions:
+  atmosphere.admin:
+    default: op

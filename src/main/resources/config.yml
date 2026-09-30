@@ -1,0 +1,19 @@
+# Тепло костра
+campfire:
+  enabled: true
+  radius: 3            # радиус поиска костра (блоков)
+  message: "Тепло костра согревает вас..."
+
+# Звуки окружения
+ambient:
+  enabled: true
+  interval-seconds: 15 # как часто проверяем каждого игрока
+  chance-percent: 20   # шанс звука за одну проверку
+  cave-sounds: true
+  night-howls: true
+
+# Эхо смерти
+death:
+  enabled: true
+  send-coords: true
+  message: "Вы погибли на X: %x%, Y: %y%, Z: %z% (%world%)"
